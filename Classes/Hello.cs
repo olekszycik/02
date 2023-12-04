@@ -10,7 +10,7 @@ namespace _02
             Console.WriteLine("Hej, what is your name?");
             string? yourName = Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("Hello " + yourName + " !");
+            Console.WriteLine("Hello " + yourName + "!");
             //Console.ReadKey();
             //Console.ResetColor();
             //Console.Clear();

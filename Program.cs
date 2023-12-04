@@ -17,7 +17,7 @@ namespace _02 // Note: actual namespace depends on the project name.
             
 
 
-//*******************************************************************
+//---------------------------------
             Console.ResetColor();
             System.Console.WriteLine("Pres any key...");
             Console.ReadKey();
