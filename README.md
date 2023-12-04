@@ -1,1 +1,1 @@
-test
+To jest opis testowy.
