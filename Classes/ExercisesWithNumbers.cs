@@ -78,7 +78,7 @@ namespace _02
             
             //przekonwertować to na int32 czy na single?
             float c = Convert.ToInt32(a)/Convert.ToSingle(b);
-            //float c = a/b; //daje niepoprawny wynik -> 1/2=0
+            //float c = a/b; //daje niepoprawny wynik -> 1/2 = 0
             Console.WriteLine(c);
 
             float x = a;
