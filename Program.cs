@@ -12,7 +12,8 @@ namespace _02 // Note: actual namespace depends on the project name.
             
             //ExercisesWithNumbers.GivTwoIntAndAdd(); // prosi o dwa int-y i wyświetla wynik dodawania
             //ExercisesWithNumbers.GivThreeIntAddAndAverage(); // prosi o trzy int-y, wyświetla ich sumę oraz podaje średnią i  zaokrągla do najbliższej
-            ExercisesWithNumbers.ToFloat();
+            //ExercisesWithNumbers.ToFloat();
+            Saga.SagaAboutTwoPeople();
 
             
 

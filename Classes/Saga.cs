@@ -1,66 +1,49 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace _02
 
 {
-    internal class Saga
+    class Saga
     {
-        string[] yes = {"ja", "Ja", "JA", "jA", "j", "J"};
-        string[] no = {"nej", "Nej", "n", "N", "NEJ"};
-        //string[] yesno = yes.Union(no).ToArray(); //łączenie dwóch tablic
-
-/*
-        foreach(string abc in yes) 
+        public static void SagaAboutTwoPeople()
         {
-            Console.WriteLine(abc);
+            string? man; 
+            string? woman;
+            string? dog = "KoKo";
+            string? cat = "Fifi";
+
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Saga om två personer");
+            Console.ResetColor();
+
+            Console.WriteLine("Föreslå ett mansnamn och skriv: ");
+            man = Console.ReadLine();
+            Console.WriteLine("Föreslå ett kvinnonamn och skriv: ");
+            woman = Console.ReadLine();
+
+            StringOne(man, woman);
+            StringTwo(dog, cat, woman);
+            StringThree(man, dog);
         }
-*/
+
+        public static void StringOne(string man, string woman)
+        {
+            Console.WriteLine(string.Format("{0} gifte sig med {1}, men {0} visste inte att {1} gillar röka cigaretter.", man, woman));
+        }
+       
+        public static void StringTwo(string dog, string cat, string woman)
+        {
+            Console.WriteLine("Hans hund {0} var agresiv mot hennes catten {1} och problemet löste sig självt.\n{2} bestämde sig för att flytta ut med {1}.", dog, cat, woman);
+        }
+
+        public static void StringThree(string man, string dog)
+        {
+            Console.WriteLine("Nu behöver {0} och {1} inte vara nervösa för någonting.", man, dog);
+        }
 
 
-        Console.WriteLine("Är det fint väder?\ntillåtna ord är:");
-        Console.WriteLine("ja, Ja, JA, jA, j, J");
-        Console.WriteLine("eller:");
-        Console.WriteLine("nej, Nej, n, N, NEJ");
-                
-
-        string? svar = Console.ReadLine();
         
-
-
-        foreach(string jaja in yes)
-        {
-            if (jaja.Equals(svar))
-            {
-                Console.WriteLine("Vi går på picknick!");
-                //break;
-            }
-        }
-
-
-        foreach(string nejnej in no)
-        {
-            if (nejnej.Equals(svar))
-            {
-                Console.WriteLine("Vi stannar inne och läser en bok");
-            }
-        }
-
-        //
-        // Jeśli nie zawiera słów z połączonych tablic, to ma zadziałać, inaczej pominąć.
-        //
-        foreach(string inget in yesno)
-        {
-            if (!inget.Equals(svar))
-            {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Jag förstår inte");
-                Console.ResetColor();
-                break;
-            }
-        }
     }
-
-
-
+        
 }
-
