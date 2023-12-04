@@ -7,8 +7,8 @@ namespace _02
     class Saga
     {
         public static void SagaAboutTwoPeople()
-        {
-            string? man; 
+        {            
+            string? man = null; 
             string? woman;
             string? dog = "KoKo";
             string? cat = "Fifi";
