@@ -1,0 +1,24 @@
+void name()
+{
+    console.WriteLine....
+    string yourName = console.read...();
+}
+
+
+do
+{
+    name();
+}
+while
+{
+    while(string.IsNullOrEmpty(yourName) || string.isnullrWhiteSpace(yourName))
+}
+
+Hello();
+
+
+void Hello()
+{
+    console.foregroundColor = consolColor.Yellow;
+    
+}

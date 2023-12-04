@@ -1,0 +1,15 @@
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/bin/Debug/net7.0/02
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/bin/Debug/net7.0/02.deps.json
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/bin/Debug/net7.0/02.runtimeconfig.json
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/bin/Debug/net7.0/02.dll
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/bin/Debug/net7.0/02.pdb
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.csproj.AssemblyReference.cache
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.GeneratedMSBuildEditorConfig.editorconfig
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.AssemblyInfoInputs.cache
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.AssemblyInfo.cs
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.csproj.CoreCompileInputs.cache
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.dll
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/refint/02.dll
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.pdb
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/02.genruntimeconfig.cache
+/home/kapsel/Pulpit/Burlov_Komvux/Projects/02/obj/Debug/net7.0/ref/02.dll
