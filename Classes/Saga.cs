@@ -8,7 +8,7 @@ namespace _02
     {
         public static void SagaAboutTwoPeople()
         {            
-            string? man = null; 
+            string? man; 
             string? woman;
             string? dog = "KoKo";
             string? cat = "Fifi";
