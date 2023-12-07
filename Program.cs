@@ -22,6 +22,8 @@ namespace _02 // Note: actual namespace depends on the project name.
             //NumbersNext.Twenty(); // 1.....20
             //NumbersNext.FreeNumber(); // from your number to 100
 
+            KronaEllerKlave.Jedziesz();
+
 
             
 
