@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Security.Cryptography;
 
 namespace _02 // Note: actual namespace depends on the project name.
@@ -13,8 +14,14 @@ namespace _02 // Note: actual namespace depends on the project name.
             //ExercisesWithNumbers.GivTwoIntAndAdd(); // prosi o dwa int-y i wyświetla wynik dodawania
             //ExercisesWithNumbers.GivThreeIntAddAndAverage(); // prosi o trzy int-y, wyświetla ich sumę oraz podaje średnią i  zaokrągla do najbliższej
             //ExercisesWithNumbers.ToFloat();
+            
             //Saga.SagaAboutTwoPeople();
-            VarArDetKallast.TwoCities();
+            
+            //VarArDetKallast.TwoCities();
+
+            //NumbersNext.Twenty(); // 1.....20
+            //NumbersNext.FreeNumber(); // from your number to 100
+
 
             
 

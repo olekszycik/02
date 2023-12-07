@@ -1,7 +1,3 @@
-To są ćwiczenia na liczbach.
-
-Övningar till kapitel 3 - Variabler
-
 Övning 3.1 - Summan av två tal
 Skapa ett program där användaren får mata in två heltal, varefter programmet
 beräknar summan.
