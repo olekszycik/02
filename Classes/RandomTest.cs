@@ -38,12 +38,12 @@ namespace _02
 
             var rand = new Random();
 
-            string[] newCoinArray = new string[numberOfThrows]; // tablica o nazwie "newCoinArray", która posiada "numberOfHthrows" wyrazów
+            string[] newCoinArray = new string[numberOfThrows]; // Utworzenie tablicy o nazwie "newCoinArray", która posiada "numberOfHthrows" wyrazów
             
 
             for (int i = 0; i < numberOfThrows; i++)
             {
-                newCoinArray[i] = coins[rand.Next(coins.Length)]; // wypełniam tablicę wyrazami, które są losowane
+                newCoinArray[i] = coins[rand.Next(coins.Length)]; // wypełniam tablicę wyrazami w ilości "numberOfThrows", które są losowane
             }
             
 
@@ -51,7 +51,7 @@ namespace _02
             int howManyA = 0;
             int howManyB = 0;
 
-            foreach (var item in newCoinArray)
+            foreach (var item in newCoinArray) // sprawdzam ilość występowania wyrazów w tablicy
             {
                 if (item == coins[0])
                 {
@@ -62,6 +62,7 @@ namespace _02
                     howManyB++;
                 }
             }
+            
             Console.WriteLine("A is flip: " + howManyA + " and B is flip: " + howManyB);
 
         }
