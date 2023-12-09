@@ -1,3 +1,6 @@
+using System.ComponentModel.DataAnnotations;
+using System.Security.Cryptography.X509Certificates;
+
 namespace _02
 
 {
@@ -5,6 +8,7 @@ namespace _02
     {
         private static string [] firstName = { "Donald", "Krzysztof", "Antoni"};
         private static string [] lastName = {"Bosak", "Tusk", "Macierewicz", "Kaczyński", "Czarnek"};
+        private static string [] coins = {"A", "B"};
 
 
 //-----------------------------------------------------------------------------
@@ -22,14 +26,64 @@ namespace _02
             Console.WriteLine(randomWords);
         }
 
-//-----------------------------------------------------------------------------
+//  Throws of coins ======================================================
+//  ==============================================================================
+
+        public static void Coin()
+        {
+            int numberOfThrows = 0; //ilość rzutów, czyli ilość wyrazów w tablicy
+
+            Console.WriteLine("How many times do you want to flip a coin?");
+            numberOfThrows = Convert.ToInt32(Console.ReadLine());
+
+            var rand = new Random();
+
+            string[] newCoinArray = new string[numberOfThrows]; // tablica o nazwie "newCoinArray", która posiada "numberOfHthrows" wyrazów
+            
+
+            for (int i = 0; i < numberOfThrows; i++)
+            {
+                newCoinArray[i] = coins[rand.Next(coins.Length)]; // wypełniam tablicę wyrazami, które są losowane
+            }
+            
+
+
+            int howManyA = 0;
+            int howManyB = 0;
+
+            foreach (var item in newCoinArray)
+            {
+                if (item == coins[0])
+                {
+                    howManyA++;
+                }
+                else if (item == coins[1])
+                {
+                    howManyB++;
+                }
+            }
+            Console.WriteLine("A is flip: " + howManyA + " and B is flip: " + howManyB);
+
+        }
+        
+//  ==============================================================================
+
+
+
+
+
         public static void GenerateArray() //buduje nową tablicę "tablicaImion" poprzez losowanie wyrazów z innej tablicy.
         {
-            var rand = new Random();
-            
-            string[] tablicaImion = new string[5];
+            int howManyTimes = 0;
 
-            for (int i = 0; i < 5; i++)
+            Console.WriteLine("How many times do you want to say Lastname?");
+            howManyTimes = Convert.ToInt32(Console.ReadLine());
+
+            var rand = new Random();
+        
+            string[] tablicaImion = new string[howManyTimes];
+
+            for (int i = 0; i < howManyTimes; i++)
             {
                 tablicaImion [i] = lastName[rand.Next(lastName.Length)];
             }
@@ -38,6 +92,9 @@ namespace _02
             {
                 System.Console.WriteLine(item);
             }
+
+            int ileWTablicy = tablicaImion.Length;
+            System.Console.WriteLine("ilość wyrazów w tablicy: " + ileWTablicy);
         }
 //-----------------------------------------------------------------------------       
 

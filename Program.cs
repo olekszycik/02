@@ -25,7 +25,9 @@ namespace _02 // Note: actual namespace depends on the project name.
             //KronaEllerKlave.Jedziesz();
 
             //RandomTest.GenerateName();
-            RandomTest.RandomNames();
+            //RandomTest.RandomNames();
+
+            RandomTest.Coin();
 /*
             var wylosowaneWyrazy = RandomTest.GenerateName();
             Console.WriteLine(wylosowaneWyrazy);
