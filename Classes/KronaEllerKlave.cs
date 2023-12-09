@@ -18,19 +18,25 @@ namespace _02
             {
                 Losowanie();
             }
-        }
 
-        public static void Losowanie()
+                
+        }
+        //Random losowanie = new Random();
+
+        public static string Losowanie()
         {
             Random losowanie = new Random();
 
             string [] monety = {kr, kl};
-            int randomINDEX = losowanie.Next(monety.Length);
-            Console.Out.WriteLine("Wylosowano: " + monety[randomINDEX]);
+            //int randomINDEX = losowanie.Next(monety.Length);
+            string tablica = monety[losowanie.Next(monety.Length)];
+            return $"{tablica}";
+            //Console.Out.WriteLine("Wylosowano: " + monety[tablica]);
             
-            string [] noweMonety = {monety[randomINDEX]};
+            /*
+            string [] noweMonety = {monety[tablica]};
             System.Console.WriteLine(noweMonety);
-
+*/
             /* zobaczyć to:
                 https://www.youtube.com/watch?v=MtOYVONXEk0
                 czwarta minuta
