@@ -62,8 +62,8 @@ namespace _02
                     howManyB++;
                 }
             }
-            
-            Console.WriteLine("A is flip: " + howManyA + " and B is flip: " + howManyB);
+
+            Console.WriteLine(coins[0] + " is flip: " + howManyA + " and " + coins[1] + "is flip: " + howManyB);
 
         }
         
