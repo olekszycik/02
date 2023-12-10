@@ -22,12 +22,12 @@ namespace _02 // Note: actual namespace depends on the project name.
             //NumbersNext.Twenty(); // 1.....20
             //NumbersNext.FreeNumber(); // from your number to 100
 
-            //KronaEllerKlave.Jedziesz();
+            KronaEllerKlave.Jedziesz();
 
             //RandomTest.GenerateName();
             //RandomTest.RandomNames();
 
-            RandomTest.Coin();
+            //RandomTest.Coin();
 /*
             var wylosowaneWyrazy = RandomTest.GenerateName();
             Console.WriteLine(wylosowaneWyrazy);
