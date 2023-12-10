@@ -63,8 +63,19 @@ namespace _02
                 }
             }
 
-            Console.WriteLine(coins[0] + " is flip: " + howManyA + " and " + coins[1] + "is flip: " + howManyB);
+            int absoluteValue = howManyA - howManyB;
+            int absoluteValueResult;
 
+            if (howManyA - howManyB >0)
+            {
+                absoluteValueResult = absoluteValue;
+            }
+            else
+            {
+                absoluteValueResult = absoluteValue * -1;
+            }
+
+            Console.WriteLine(coins[0] + " is flip: " + howManyA + " and " + coins[1] + "is flip: " + howManyB + "\nand difference is: " + absoluteValueResult);
         }
         
 //  ==============================================================================
