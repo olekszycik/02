@@ -29,7 +29,7 @@ namespace _02
 
             //RandomTest.Coin();
 
-            KronaEllerKlave.Rand();
+            KronaEllerKlaveList.Rand();
 
 
 

@@ -6,7 +6,7 @@ using static System.Formats.Asn1.AsnWriter;
 namespace _02
 
 {
-    class KronaEllerKlave
+    class KronaEllerKlaveList
     {
         public static string krona = "Krona";
         public static string klave = "Klave";
